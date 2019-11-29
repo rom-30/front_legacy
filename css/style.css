@@ -33,4 +33,6 @@ body {
     background-size: cover;
     /* Make sure that even if we crop the top will remain */
     background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    /* clip-path: polygon(0 0, 100% 50%, 50% 100%); */
 }
