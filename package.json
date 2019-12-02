@@ -1,0 +1,14 @@
+{
+  "name": "adventours",
+  "version": "1.0.0",
+  "description": "Landing page for adventours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rom-30",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
