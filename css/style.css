@@ -79,6 +79,16 @@ body {
     letter-spacing: 1.74rem;
     animation: moveInRight 1s ease-out; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
