@@ -10,9 +10,9 @@
     &__icon {
         font-size: 6rem;
         margin-bottom: .5rem;
+        display: inline-block;
         background-image: linear-gradient(to right, 
         $color-primary-light, $color-primary-dark);
-         display: inline-block;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -20,9 +20,4 @@
     &:hover {
         transform: translateY(-1.5rem) scale(1.05);
     }
-    &__text {
-
-    }
-
-
 }
