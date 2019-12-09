@@ -10,9 +10,9 @@
         transition: all .2s;
         outline-offset: 2rem;
 
-        &:not(:hover) {
-            transform: scale(0.9);
-        }
+        // &:not(:hover) {
+        //     transform: scale(0.9);
+        // }
 
         // Steps down
         //        &--p1 {left: 0; top: -2rem; }

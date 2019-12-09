@@ -189,8 +189,6 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
-    .composition__photo:not(:hover) {
-      transform: scale(0.9); }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
@@ -222,7 +220,6 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.05); }
@@ -238,7 +235,6 @@ body {
     clear: both; }
   .row [class^="col-"] {
     float: left;
-    height: 4rem;
     font-size: 2rem; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
