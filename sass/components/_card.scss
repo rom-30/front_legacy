@@ -1,23 +1,24 @@
 .card {
+    // Functionatlity
     // perspective has to be defined on the parent element
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
     height: 50rem;
 
-
-
     &__side {
-        color: #fff;
         font-size: 2rem;
         height: 50rem;
         transition: all .8s ease;
         position: absolute;
+        color: white;
         top: 0;
         left: 0;
         width: 100%;
         backface-visibility: hidden;
         border-radius: 3px;
+        // Because parent is overflowing image
+        overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
         &--front {
@@ -34,7 +35,6 @@
         }
     }
 
-
     &:hover &__side--front {
         transform: rotateY(-180deg);
 
@@ -42,5 +42,27 @@
 
     &:hover &__side--back {
         transform: rotateY(0);
+    }
+
+    // FRONT SIDE STYLING 
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+        &--1 {
+            background-image: linear-gradient(to right bottom,
+            $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg) ;
+        }
+
+        &--2 {
+            background-image: url(../img/nat-5.jpg);
+        }
+
+        &--3 {
+            background-image: url(../img/nat-5.jpg);
+        }
+
     }
 }
