@@ -7,6 +7,7 @@
     &__input {
         font-size: 1.5rem;
         font-family: inherit;
+        color: inherit;
         padding: 1.5rem 2rem;
         border-radius: 2px;
         background-color: rgba($color-white, .5);
@@ -17,7 +18,6 @@
         width: 90%;
         display: block;
 
-
         &:focus {
             outline: none;
             // We need other elements as outline: none on its own is
@@ -25,10 +25,14 @@
             box-shadow: 0 1rem 2rem rgba($color-black, .1);
             border-bottom: 3px solid $color-primary;
         }
-        
+
+        &::-webkit-input-placeholder {
+            color: $color-grey-dark-2;
+        }
     }
 
-    // &__label {
 
-    // }
+    &__label {
+
+    }
 }
