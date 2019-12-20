@@ -9,13 +9,14 @@
     z-index: 3000;
     
     &__content {
-        width: 75%;
+        width: 80%;
         background-color: $color-white;
 
         @include absCenter;
         box-shadow: 0 2rem 4rem rgba($color-black, .8);
         border-radius: 3px;
         display: table;
+        overflow: hidden;
     }
 
     &__left {
@@ -27,6 +28,8 @@
         width: 66.6666667%;
         display: table-cell;
         vertical-align: middle;
+        padding: 1rem 1.5rem;
+        //original value padding: 3rem 5rem;
 
     }
 
@@ -36,6 +39,12 @@
     }
 
     &__text {
+        font-size: 1.4rem;
+        margin-bottom: 2.5rem;
+        // original value padding: 4rem;
 
+        column-count: 2;
+        column-gap: 2rem; //1em = 14px size of current element
+        column-rule: 1px solid $color-grey-light-2;
     }
 }
