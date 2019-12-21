@@ -11,6 +11,7 @@ $breakpoint argument choices
 - t-portrait
 - t-landscape
 - big-desktop
+1em = 16px
 */
 @keyframes moveInLeft {
   /* Start of animation */
@@ -56,18 +57,18 @@ $breakpoint argument choices
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 600px) {
+  @media (max-width: 37.5em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 900px) {
+  @media (max-width: 56.25em) {
     html {
-      font-size: 50%; } }
-  @media (max-width: 1200px) {
+      font-size: 60%; } }
+  @media (max-width: 75em) {
     html {
-      font-size: 50%; } }
-  @media (min-width: 1800px) {
+      font-size: 70%; } }
+  @media (min-width: 112.5em) {
     html {
-      font-size: 50%; } }
+      font-size: 80%; } }
 
 body {
   box-sizing: border-box; }
