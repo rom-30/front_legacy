@@ -1,3 +1,17 @@
+/*
+0-600px:        phone
+600-900ox:      tablet portrait
+900-1200px:     tablet landscape
+1200-1800px:    normal stle
+1800px +:       Big desktop
+*/
+/*
+$breakpoint argument choices
+- phone
+- t-portrait
+- t-landscape
+- big-desktop
+*/
 @keyframes moveInLeft {
   /* Start of animation */
   0% {
@@ -42,6 +56,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
