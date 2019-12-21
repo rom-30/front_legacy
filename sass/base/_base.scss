@@ -14,6 +14,18 @@ html {
     @include respond(phone) {
         font-size: 50%;
     }
+
+    @include respond(tab_port) {
+        font-size: 50%;
+    }
+
+    @include respond(tab_land) {
+        font-size: 50%;
+    }
+
+    @include respond(big_desktop) {
+        font-size: 50%;
+    }
 }
 
 body {
