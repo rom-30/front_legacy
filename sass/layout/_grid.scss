@@ -11,7 +11,7 @@
     }
 
     @include respond(tab_port) {
-        max-width: 70rem;
+        max-width: 50rem;
         padding: 0 3rem;
     }
 
