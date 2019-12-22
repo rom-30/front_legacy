@@ -2,6 +2,10 @@
     background-color: $color-grey-dark-3;
     padding: 10rem 0;
     font-size: 1.4rem;
+
+    @include respond(tab_port) {
+        padding: 8rem 0;
+    }
     // If I want for all the text to be white
     // color: $color-grey-light-1;
 
@@ -20,6 +24,11 @@
         border-top: 1px solid $color-grey-dark-2;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond(tab_port) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__list {
@@ -61,5 +70,10 @@
         padding-top: 2rem;
         width: 80%;
         float: right;
+
+        @include respond(tab_port) {
+            width: 100%;
+            float: none;
+        }
     }
 }
