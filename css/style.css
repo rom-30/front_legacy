@@ -588,6 +588,9 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem; }
   @media (max-width: 56.25em) {
+    .footer .row {
+      max-width: 70rem; } }
+  @media (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
   .footer__logo-box {
@@ -645,7 +648,7 @@ body {
         margin-bottom: 6rem; } }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 70rem;
+      max-width: 50rem;
       padding: 0 3rem; } }
   .row::after {
     content: "";

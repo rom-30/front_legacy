@@ -3,6 +3,14 @@
     padding: 10rem 0;
     font-size: 1.4rem;
 
+    // To make the footer wider and decent ^^
+    .row {
+        @include respond(tab_port) {
+            max-width: 70rem;;
+        }  
+    }
+    
+
     @include respond(tab_port) {
         padding: 8rem 0;
     }
