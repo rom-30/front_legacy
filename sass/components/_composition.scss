@@ -65,10 +65,20 @@
             transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
+
+            @include respond(tab_port) {
+                outline: none;
+                transform: scale(1.4);
+            }
         }
     }
 
     &:hover &__photo:not(:hover) {
         transform: scale(0.7);
+
+        @include respond(tab_port) {
+            transform: scale(1);
+            z-index: 0;
+        }
     }
 }
