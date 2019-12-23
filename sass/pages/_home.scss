@@ -31,11 +31,11 @@
     }
 
     @include respond(tab_port) {
-        padding: 15rem 0;
+        padding: 10rem 0;
     }
 
     @include respond(phone) {
-        padding: 11rem 0;
+        padding: 7rem 0;
     }
 }
 
