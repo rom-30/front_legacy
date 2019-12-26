@@ -19,6 +19,10 @@
         display: block;
         transition: all .3s;
 
+        @include respond(tab_port) {
+            width: 100%;
+        }
+
         &:focus {
             outline: none;
             // We need other elements as outline: none on its own is
@@ -56,6 +60,12 @@
         // Changed to 49% to have buttons side by side
         width: 49%;
         display: inline-block;
+
+        @include respond(tab_port) {
+            width: 100%;
+            margin-bottom: 2rem;
+            // display: block;
+        }
     }
 
     &__radio-input {
