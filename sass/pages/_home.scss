@@ -64,6 +64,16 @@
     @include respond(phone) {
         padding: 6rem 0;
     }
+
+    .row {
+        @include respond(tab_port) {
+            max-width: 80rem;
+        }
+
+        @include respond(phone) {
+            max-width: 50rem;
+        }
+    }
 }
 
 .section-book {
