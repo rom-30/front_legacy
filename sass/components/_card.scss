@@ -165,12 +165,14 @@
     @include respond(tab_port) {
         // We no longer need for the front and the back to be the same size
         height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
         &__side {
             height: auto;
             position: relative;
-            border-radius: 3px;
-
+            box-shadow: none;
          
             &--back {
                 transform: rotateY(0);
@@ -185,6 +187,11 @@
 
         }
 
+        &__details {
+            padding: 0 1rem;
+        }
+
+
     // Back card styling
         &__cta {
             position: relative;
@@ -192,7 +199,7 @@
             left: 0%;
             transform: translate(0);
             width: 100%;
-            padding: 4rem;
+            padding: 7rem 4rem 4rem 4rem;
         }
 
         &__price-box {
@@ -201,7 +208,7 @@
 
 
         &__price-value {
-            font-size: 6rem;
+            font-size: 4rem;
         }
 
     }
