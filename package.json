@@ -4,7 +4,8 @@
   "description": "Landing page for adventours",
   "main": "index.js",
   "scripts": {
-    "wwatch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style_comp.css"
   },
   "author": "rom-30",
   "license": "ISC",
