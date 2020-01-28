@@ -6,12 +6,15 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "compile:sass": "node-sass sass/main.scss css/style_comp.css",
-    "concat:css": "concat -o css/style_concat.css css/icon-font.css css/style_comp.css"
+    "concat:css": "concat -o css/style_concat.css css/icon-font.css css/style_comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style_concat.css -o css/style_prefix.css"
   },
   "author": "rom-30",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.7.4",
     "concat": "^1.0.3",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^7.1.0"
   }
 }
