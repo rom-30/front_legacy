@@ -1,12 +1,7 @@
 # Adventours | Natours
 <br/>
-<div>
- <video autoplay muted loop width="1200">
-    <source src="./img/demo.webm" type="video/webm">
-    Your browser is not supported!
-  </video>
-</div>
 
+![demo](./img/demo.webm)
 
 [Download the project](https://github.com/rom-30/adventours/archive/master.zip) or clone it
 ~~~ zsh
