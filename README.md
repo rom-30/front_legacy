@@ -1,12 +1,12 @@
 # Adventours | Natours
-<br/>
 
-![demo](./img/demo.webm)
+![Demo](img/demo.gif)
 
 [Download the project](https://github.com/rom-30/adventours/archive/master.zip) or clone it
-~~~ zsh
+
+```bash
 $ git clone git@githubcom:rom-30/adventours.git
-~~~
+```
 
 ## Description
 - No Javascript, Custom CSS and HTML only
@@ -15,14 +15,18 @@ $ git clone git@githubcom:rom-30/adventours.git
 - [SCSS](https://sass-lang.com/) \- Stylesheet language that’s compiled to CSS
 
 - [Linea Icons](https://linea.io/) \- Free iconset designed by Dario Ferrando
-- [7-1 pattern](https://sass-guidelin.es/#the-7-1-pattern)  <pre>\- sass/ * To structure the project*
-                                                                     ├── base/
-                                                                     ├── components/
-                                                                     ├── layout/
-                                                                     ├── pages/
-                                                                     ├── themes/
-                                                                     ├── vendors/
-                                                                     └── main.scss</pre>
+- [7-1 pattern](https://sass-guidelin.es/#the-7-1-pattern)  *To structure the project*
+<pre>
+  sass/
+    ├── abstracts/
+    ├── base/
+    ├── components/
+    ├── layout/
+    ├── pages/
+    ├── themes/
+    ├── vendors/
+    └── main.scss
+</pre>
 
 - [BEM](https://en.bem.info/) \- Component-based approach to web development
 - [Custom Grid](https://github.com/rom-30/custom_grid) \- I made it sound fancier than it is!
