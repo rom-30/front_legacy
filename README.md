@@ -21,13 +21,13 @@ $ git clone git@githubcom:rom-30/adventours.git
 
 - [Linea Icons](https://linea.io/) \- Free iconset designed by Dario Ferrando
 - [7-1 pattern](https://sass-guidelin.es/#the-7-1-pattern)  <pre>\- sass/ * To structure the project*
-                                                                    ├── base/
-                                                                    ├── components/
-                                                                    ├── layout/
-                                                                    ├── pages/
-                                                                    ├── themes/
-                                                                    ├── vendors/
-                                                                    └── main.scss</pre>
+                                                                     ├── base/
+                                                                     ├── components/
+                                                                     ├── layout/
+                                                                     ├── pages/
+                                                                     ├── themes/
+                                                                     ├── vendors/
+                                                                     └── main.scss</pre>
 
 - [BEM](https://en.bem.info/) \- Component-based approach to web development
 - [Custom Grid](https://github.com/rom-30/custom_grid) \- I made it sound fancier than it is!
