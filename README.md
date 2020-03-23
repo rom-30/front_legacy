@@ -5,7 +5,7 @@
 [Download the project](https://github.com/rom-30/adventours/archive/master.zip) or clone it
 
 ```bash
-$ git clone git@githubcom:rom-30/adventours.git
+$ git clone git@github.com:rom-30/adventours.git
 ```
 
 ## Description
